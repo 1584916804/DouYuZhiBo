@@ -97,6 +97,7 @@
 		049F6A881FAD9E0E00BA1045 /* DouYuTV */ = {
 			isa = PBXGroup;
 			children = (
+				049F6AB71FAE016000BA1045 /* Classes */,
 				049F6A891FAD9E0E00BA1045 /* AppDelegate.swift */,
 				049F6A8B1FAD9E0E00BA1045 /* ViewController.swift */,
 				049F6A8D1FAD9E0E00BA1045 /* Main.storyboard */,
@@ -123,6 +124,181 @@
 				049F6AAB1FAD9E0E00BA1045 /* Info.plist */,
 			);
 			path = DouYuTVUITests;
+			sourceTree = "<group>";
+		};
+		049F6AB71FAE016000BA1045 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				049F6AC41FAE016000BA1045 /* Main */,
+				049F6ABC1FAE016000BA1045 /* Home */,
+				049F6AC01FAE016000BA1045 /* Live */,
+				049F6AB81FAE016000BA1045 /* Follow */,
+				049F6AC81FAE016000BA1045 /* Profile */,
+				049F6ACC1FAE016000BA1045 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		049F6AB81FAE016000BA1045 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				049F6AB91FAE016000BA1045 /* Controller */,
+				049F6ABA1FAE016000BA1045 /* Model */,
+				049F6ABB1FAE016000BA1045 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		049F6AB91FAE016000BA1045 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049F6ABA1FAE016000BA1045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049F6ABB1FAE016000BA1045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049F6ABC1FAE016000BA1045 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				049F6ABD1FAE016000BA1045 /* Controller */,
+				049F6ABE1FAE016000BA1045 /* Model */,
+				049F6ABF1FAE016000BA1045 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		049F6ABD1FAE016000BA1045 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049F6ABE1FAE016000BA1045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049F6ABF1FAE016000BA1045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049F6AC01FAE016000BA1045 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				049F6AC11FAE016000BA1045 /* Controller */,
+				049F6AC21FAE016000BA1045 /* Model */,
+				049F6AC31FAE016000BA1045 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		049F6AC11FAE016000BA1045 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049F6AC21FAE016000BA1045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049F6AC31FAE016000BA1045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049F6AC41FAE016000BA1045 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				049F6AC51FAE016000BA1045 /* Controller */,
+				049F6AC61FAE016000BA1045 /* Model */,
+				049F6AC71FAE016000BA1045 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		049F6AC51FAE016000BA1045 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049F6AC61FAE016000BA1045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049F6AC71FAE016000BA1045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049F6AC81FAE016000BA1045 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				049F6AC91FAE016000BA1045 /* Controller */,
+				049F6ACA1FAE016000BA1045 /* Model */,
+				049F6ACB1FAE016000BA1045 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		049F6AC91FAE016000BA1045 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049F6ACA1FAE016000BA1045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049F6ACB1FAE016000BA1045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049F6ACC1FAE016000BA1045 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
